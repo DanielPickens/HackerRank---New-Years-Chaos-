@@ -58,7 +58,7 @@ def minPossBribes(Q):
             print("too chaotic")
        	    return
        	    
-       	    for J in range(max(p-1,0),i):
-       	    	if q[j] > p:
+       	    for J in range(max(P-1,0),i):
+       	    	if Q[j] > P:
        	    		possMoves += 1
        	    		print(possMoves)
