@@ -48,7 +48,7 @@ def minPossBribes(Q):
     
     #Solution # 2
     
-    def minBribes(q):
+    def minBribes(Q):
         
         possMoves = 0
         q = [P-1 for P in Q]
@@ -59,6 +59,6 @@ def minPossBribes(Q):
        	    return
        	    
        	    for J in range(max(P-1,0),i):
-       	    	if Q[j] > P:
+       	    	if Q[J] > P:
        	    		possMoves += 1
        	    		print(possMoves)
