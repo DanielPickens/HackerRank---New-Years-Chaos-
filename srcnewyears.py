@@ -48,7 +48,7 @@ def minPossBribes(Q):
     
     #Solution # 2
     
-    def minMoves(q):
+    def minBribes(q):
         
         possMoves = 0
         q = [P-1 for P in Q]
