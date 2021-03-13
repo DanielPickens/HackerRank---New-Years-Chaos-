@@ -40,3 +40,25 @@ def minPossBribes(Q):
             if Q[j] > P:
                 possibleMoves += 1
     print(possibleMoves)
+    
+    
+    
+    
+    
+    
+    #Solution # 2
+    
+    def minMoves(q):
+        
+        possMoves = 0
+        q = [P-1 for P in Q]
+        if P - i > 2:
+          for i, P in enumerate(Q):
+       
+            print("too chaotic")
+       	    return
+       	    
+       	    for J in range(max(p-1,0),i):
+       	    	if q[j] > p:
+       	    		possMoves += 1
+       	    		print(possMoves)
